@@ -1,0 +1,33 @@
+.show-hide-container {
+  background-image: linear-gradient(#fa7257, #fc63a7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.heading {
+  color: #fff;
+}
+
+.toggle-button {
+  background-color: #fff;
+  color: #dd1264;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.toggle-button:hover {
+  background-color: #dd1264;
+}
+
+.name {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
